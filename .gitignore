@@ -7,8 +7,9 @@ __pycache__/
 ._.DS_Store
 ._environment.yaml
 /src/wandb/
-# /src/wandb/*
-# /wandb/
+/wandb/
+._main.py
+tox.ini
 # *.jsonl
 
 # exclude data from source control by default
