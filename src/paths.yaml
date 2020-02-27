@@ -1,0 +1,11 @@
+bam_neand: ../data/raw/Neandertal.bam
+bam_modern: ../data/raw/French.bam
+
+df_neand: ../data/interim/df_seq_neand-N_chromosones:{N_chromosones}.pkl
+df_modern: ../data/interim/df_seq_neand-N_chromosones:{N_chromosones}.pkl
+df_combined: ../data/interim/df_seq-N_chromosones:{N_chromosones}.pkl
+
+trained_model: ../data/interim/net_basic-N_chromosones:{N_chromosones}-N_epochs:{N_epochs}.pt
+
+X: ../data/interim/X-N_chromosones:{N_chromosones}.pt
+y: ../data/interim/y-N_chromosones:{N_chromosones}.pt

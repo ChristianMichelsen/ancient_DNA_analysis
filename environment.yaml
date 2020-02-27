@@ -1,0 +1,30 @@
+name: ancient_dna_analysis
+channels:
+  - pytorch
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.8  
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - cudatoolkit=10.1
+  - black
+  - jupyter
+  - jupyterlab
+  - tqdm
+  - numexpr
+  - seaborn
+  - biopython
+  - pyyaml
+  - pip:
+    - pysam
+    - wandb

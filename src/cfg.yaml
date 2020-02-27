@@ -1,0 +1,8 @@
+num_cores: -1
+
+N_chromosones: 10
+
+use_gpu: True
+
+force_rerun: False
+# force_rerun: True
